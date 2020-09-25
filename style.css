@@ -1,0 +1,47 @@
+body,
+html {
+	width: 100%;
+	height: 100%;
+	font-family: 'Prata', serif;
+	background: url(BlackTusk1.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.container {
+	justify-content: center;
+}
+
+h1 {
+	font-size: 4rem;
+	color:#2a3f5a;
+}
+
+.buffer {
+	height: 2rem;
+}
+
+.btn {
+	font-weight:700;
+	border-radius: 200px;
+	text-transform: uppercase;
+}
+
+.btn-dark {
+	background-color:#d4c8b2;
+	border-color:#d4c8b2;
+}
+
+.btn-dark:hover {
+	background-color:#132845;
+	border-color:#132845;
+	border-width: 4px;
+}
+
+.btn-xl {
+	padding: 0.5rem 1rem;
+	color: #2a3f5a;
+
+}
